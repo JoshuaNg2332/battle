@@ -5,7 +5,17 @@ The task is to create a battle game using the user stories below.
 
 ### Progress
 
+Step 1 - Creating files and installing rspec and Sinatra.
+At this step we were building the initial file structure of our app and installing key gems required for the project.
 
+Step 2 - Installing Capybara and running our first Rspec test.
+Here we installed capybara and connected capybara to our rspec helper files allowing us to access the capybara functions for rspec.
+We then wrote our first test through rspec to test that the capybara tests were working and the connection between our capybara gem and our rspec gems were working together.
+
+Step 3 - Enabling the use of forms for players to enter their names.
+Our next step was to write a test for our form to accept the name of our players names. As I was working in a three at the time, I created 3 players in the form and tests and outputted 3 players. We wrote our tests first and then worked through the code adding in the links to the input page where 3 input forms were created and then a second 'names' page where the names were outputted.
+
+Test coverage so far = 100%
 
 
 ### Challenge setup
