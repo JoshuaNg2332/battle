@@ -3,6 +3,11 @@
 This project was started in week 3 as part of the "Intro to web" afternoon challenges.
 The task is to create a battle game using the user stories below.
 
+### Progress
+
+
+
+
 ### Challenge setup
 
 Here are the complete User Stories for this project. They begin with some 'Basic' User Stories:
