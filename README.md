@@ -15,6 +15,12 @@ We then wrote our first test through rspec to test that the capybara tests were 
 Step 3 - Enabling the use of forms for players to enter their names.
 Our next step was to write a test for our form to accept the name of our players names. As I was working in a three at the time, I created 3 players in the form and tests and outputted 3 players. We wrote our tests first and then worked through the code adding in the links to the input page where 3 input forms were created and then a second 'names' page where the names were outputted.
 
+Step 4 - We use the sessions function to save our form submissions and then redirect those saved inputs to the /play page to carry over the saved names.
+
+Step 5 - To keep our code clean we then created a new file within our features spec page called web_helpers. This allowed us to refactor our code down to a single line in our testing framework. I also implemented tests that test both players HPs.
+
+Step 6 - Created a new attack button test that tests for the interaction of an attack button. This attack button then redirects to a new attack button page which was also created to hold the attack confirmation.
+
 Test coverage so far = 100%
 
 

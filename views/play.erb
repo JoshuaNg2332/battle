@@ -1,3 +1,9 @@
 
 <h1><%= @player_1 %> v <%= @player_2 %></h1>
 
+<h2><%= @player_1 %> = <%= @player_1_hp %>hp</h2>
+<h2><%= @player_2 %> = <%= @player_2_hp %>hp</h2>
+
+<form action="/attack" method="get">
+  <button name="attack" type="submit">Attack</button>
+</form>
